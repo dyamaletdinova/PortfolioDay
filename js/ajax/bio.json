@@ -1,0 +1,30 @@
+{
+"*** Web Dev Students ***" :{},
+  
+	"SpongeBob":
+    {
+			"bio"  : "<p>Banjo austin you probably haven't heard of them, keytar portland chicharrones banh mi pork belly. Williamsburg skateboard cred, paleo artisan actually VHS messenger bag fashion axe asymmetrical chia fingerstache wolf iPhone. Slow-carb kogi selfies etsy, helvetica distillery literally mustache mixtape tote bag tacos gastropub messenger bag migas. Distillery gentrify fingerstache raw denim, skateboard ethical gochujang XOXO cornhole stumptown quinoa umami marfa green juice. Wolf health goth freegan 3 wolf moon paleo. Quinoa viral meditation roof party, street art green juice health goth meggings asymmetrical heirloom forage. Selvage ramps poutine banh mi.</p>"
+    },
+		
+		"Patrick":
+		{
+			"bio" : "<p>East? I thought you said Weast!East? I thought you said Weast!East? I thought you said Weast!East? I thought you said Weast!East? I thought you said Weast!East? I thought you said Weast!East? I thought you said Weast!</p>"
+		},
+		
+		"Squidward":
+		{
+			"bio" : "<p>Too bad SpongeBob is not here to enjoy SpongeBob not being here!Too bad SpongeBob is not here to enjoy SpongeBob not being here!Too bad SpongeBob is not here to enjoy SpongeBob not being here!Too bad SpongeBob is not here to enjoy SpongeBob not being here!</p>"
+		},
+		
+		"Mr.Krabs":
+		{
+			"bio" : "<p>I like Money. Banjo austin you probably haven't heard of them, keytar portland chicharrones banh mi pork belly. Williamsburg skateboard cred, paleo artisan actually VHS messenger bag fashion axe asymmetrical chia fingerstache wolf iPhone. Slow-carb kogi selfies etsy, helvetica distillery literally mustache mixtape tote bag tacos gastropub messenger bag migas. Distillery gentrify fingerstache raw denim, skateboard ethical gochujang XOXO cornhole stumptown quinoa umami marfa green juice. Wolf health goth freegan 3 wolf moon paleo. Quinoa viral meditation roof party, street art green juice health goth meggings asymmetrical heirloom forage. Selvage ramps poutine banh mi.</p>"
+		},
+		
+"*** Graphic Design Students ***" :{},
+		
+		"Homer Simpson":
+		{
+			"bio" : "<p>Banjo austin you probably haven't heard of them, keytar portland chicharrones banh mi pork belly. Williamsburg skateboard cred, paleo artisan actually VHS messenger bag fashion axe asymmetrical chia fingerstache wolf iPhone. Slow-carb kogi selfies etsy, helvetica distillery literally mustache mixtape tote bag tacos gastropub messenger bag migas. Distillery gentrify fingerstache raw denim, skateboard ethical gochujang XOXO cornhole stumptown quinoa umami marfa green juice. Wolf health goth freegan 3 wolf moon paleo. Quinoa viral meditation roof party, street art green juice health goth meggings asymmetrical heirloom forage. Selvage ramps poutine banh mi.</p>"
+		}
+}

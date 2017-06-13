@@ -1,0 +1,66 @@
+//Animation Mixin
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }  
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }  
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};      
+}
+
+@include keyframes(pulse){
+	0% { @include transform(scale(1, 1));}
+	50%{ @include transform(scale(.8, .8));}
+	100%{ @include transform(scale(1, 1));}
+}
+
+@include keyframes(rocketship-1){
+	0% { @include transform(translateX(-50%)); }
+	50% { @include transform(translateX(-50%)); bottom: 50px;}
+	100% { @include transform(translateX(-50%)); }
+}
+
+@include keyframes(rocketship-2){
+	0% { @include transform(translateX(-51.25%) scale(.8, .8));}
+	50% { @include transform(translateX(-51.25%) scale(.6, .6)); bottom: -150px;}
+	100% { @include transform(translateX(-51.25%) scale(.8, .8));}
+}
+
+@include keyframes(astronaut){
+	0% {left: -50%;}
+	50% {left: 100%; @include transform(rotate(360deg)); }
+	100% {left: -50%; top: 0; @include transform(rotate(-360deg)); }
+}
+
+/* 
+********Example usage**********
+
+	@include keyframes(slide-down) {
+		0% { opacity: 1; }
+		90% { opacity: 0; }
+	}
+
+	.element {
+		width: 100px;
+		height: 100px;
+		background: black;
+		@include animation('slide-down 5s 3');
+	}  
+*/

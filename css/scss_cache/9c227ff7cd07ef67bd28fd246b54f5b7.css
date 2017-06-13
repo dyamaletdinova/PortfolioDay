@@ -1,0 +1,1175 @@
+/* compiled by scssphp v0.5.1 on Sat, 19 Mar 2016 21:17:47 +0000 (0.2007s) */
+
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+:focus {
+  outline: 0; }
+
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.brandon-reg {
+  font-family: 'brandon-reg'; }
+
+.brandon-italics {
+  font-family: 'brandon-italics'; }
+
+.brandon-bold {
+  font-family: 'brandon-bold'; }
+
+.brandon-medium {
+  font-family: 'brandon-medium'; }
+
+@font-face {
+  font-family: 'brandon-reg';
+  src: url('../css/fonts/brandon_reg.otf'); }
+
+@font-face {
+  font-family: 'brandon-italics';
+  src: url('../css/fonts/brandon_reg_it.otf'); }
+
+@font-face {
+  font-family: 'brandon-bold';
+  src: url('../css/fonts/brandon_bld.otf'); }
+
+@font-face {
+  font-family: 'brandon-medium';
+  src: url('../css/fonts/brandon_med.otf'); }
+/* GOOGLE FONTS */
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Orbitron-Light'), local('Orbitron-Regular'), url(https://fonts.gstatic.com/s/orbitron/v7/HmnHiRzvcnQr8CjBje6GQvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+/*Sections*/
+/* Footer */
+/* Misc */
+/* Suppose to make the top-bar transparent. May have to be added prior to importing foundation*/
+/* Color Scheme */
+@-webkit-keyframes pulse {
+  0% {
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+
+  50% {
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8); }
+
+  100% {
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+
+  50% {
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8); }
+
+  100% {
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+@-ms-keyframes pulse {
+  0% {
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+
+  50% {
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8); }
+
+  100% {
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+@-o-keyframes pulse {
+  0% {
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+
+  50% {
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8); }
+
+  100% {
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+@keyframes pulse {
+  0% {
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+
+  50% {
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8); }
+
+  100% {
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+@-webkit-keyframes rocketship-1 {
+  0% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+
+  50% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 50px; }
+
+  100% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); } }
+
+@-moz-keyframes rocketship-1 {
+  0% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+
+  50% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 50px; }
+
+  100% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); } }
+
+@-ms-keyframes rocketship-1 {
+  0% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+
+  50% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 50px; }
+
+  100% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); } }
+
+@-o-keyframes rocketship-1 {
+  0% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+
+  50% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 50px; }
+
+  100% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); } }
+
+@keyframes rocketship-1 {
+  0% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+
+  50% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 50px; }
+
+  100% {
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); } }
+
+@-webkit-keyframes rocketship-2 {
+  0% {
+    -moz-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -o-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -ms-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -webkit-transform: translateX(-51.25%) scale(0.8, 0.8);
+    transform: translateX(-51.25%) scale(0.8, 0.8); }
+
+  50% {
+    -moz-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -o-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -ms-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -webkit-transform: translateX(-51.25%) scale(0.6, 0.6);
+    transform: translateX(-51.25%) scale(0.6, 0.6);
+    bottom: -150px; }
+
+  100% {
+    -moz-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -o-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -ms-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -webkit-transform: translateX(-51.25%) scale(0.8, 0.8);
+    transform: translateX(-51.25%) scale(0.8, 0.8); } }
+
+@-moz-keyframes rocketship-2 {
+  0% {
+    -moz-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -o-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -ms-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -webkit-transform: translateX(-51.25%) scale(0.8, 0.8);
+    transform: translateX(-51.25%) scale(0.8, 0.8); }
+
+  50% {
+    -moz-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -o-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -ms-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -webkit-transform: translateX(-51.25%) scale(0.6, 0.6);
+    transform: translateX(-51.25%) scale(0.6, 0.6);
+    bottom: -150px; }
+
+  100% {
+    -moz-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -o-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -ms-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -webkit-transform: translateX(-51.25%) scale(0.8, 0.8);
+    transform: translateX(-51.25%) scale(0.8, 0.8); } }
+
+@-ms-keyframes rocketship-2 {
+  0% {
+    -moz-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -o-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -ms-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -webkit-transform: translateX(-51.25%) scale(0.8, 0.8);
+    transform: translateX(-51.25%) scale(0.8, 0.8); }
+
+  50% {
+    -moz-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -o-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -ms-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -webkit-transform: translateX(-51.25%) scale(0.6, 0.6);
+    transform: translateX(-51.25%) scale(0.6, 0.6);
+    bottom: -150px; }
+
+  100% {
+    -moz-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -o-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -ms-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -webkit-transform: translateX(-51.25%) scale(0.8, 0.8);
+    transform: translateX(-51.25%) scale(0.8, 0.8); } }
+
+@-o-keyframes rocketship-2 {
+  0% {
+    -moz-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -o-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -ms-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -webkit-transform: translateX(-51.25%) scale(0.8, 0.8);
+    transform: translateX(-51.25%) scale(0.8, 0.8); }
+
+  50% {
+    -moz-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -o-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -ms-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -webkit-transform: translateX(-51.25%) scale(0.6, 0.6);
+    transform: translateX(-51.25%) scale(0.6, 0.6);
+    bottom: -150px; }
+
+  100% {
+    -moz-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -o-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -ms-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -webkit-transform: translateX(-51.25%) scale(0.8, 0.8);
+    transform: translateX(-51.25%) scale(0.8, 0.8); } }
+
+@keyframes rocketship-2 {
+  0% {
+    -moz-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -o-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -ms-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -webkit-transform: translateX(-51.25%) scale(0.8, 0.8);
+    transform: translateX(-51.25%) scale(0.8, 0.8); }
+
+  50% {
+    -moz-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -o-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -ms-transform: translateX(-51.25%) scale(0.6, 0.6);
+    -webkit-transform: translateX(-51.25%) scale(0.6, 0.6);
+    transform: translateX(-51.25%) scale(0.6, 0.6);
+    bottom: -150px; }
+
+  100% {
+    -moz-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -o-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -ms-transform: translateX(-51.25%) scale(0.8, 0.8);
+    -webkit-transform: translateX(-51.25%) scale(0.8, 0.8);
+    transform: translateX(-51.25%) scale(0.8, 0.8); } }
+
+@-webkit-keyframes astronaut {
+  0% {
+    left: -50%; }
+
+  50% {
+    left: 100%;
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: -50%;
+    top: 0;
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@-moz-keyframes astronaut {
+  0% {
+    left: -50%; }
+
+  50% {
+    left: 100%;
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: -50%;
+    top: 0;
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@-ms-keyframes astronaut {
+  0% {
+    left: -50%; }
+
+  50% {
+    left: 100%;
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: -50%;
+    top: 0;
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@-o-keyframes astronaut {
+  0% {
+    left: -50%; }
+
+  50% {
+    left: 100%;
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: -50%;
+    top: 0;
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@keyframes astronaut {
+  0% {
+    left: -50%; }
+
+  50% {
+    left: 100%;
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: -50%;
+    top: 0;
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+/* 
+ ********Example usage**********
+ @include keyframes(slide-down) {
+ 0% { opacity: 1; }
+ 90% { opacity: 0; }
+ }
+ .element {
+ width: 100px;
+ height: 100px;
+ background: black;
+ @include animation('slide-down 5s 3');
+ }  
+ */
+/* CORE */
+html, body {
+  padding: 0;
+  margin: 0; }
+
+#site-container {
+  width: 100%; }
+
+#container {
+  height: 100%; }
+
+#nav ul {
+  display: inline-block;
+  list-style-type: none; }
+
+#floating-nav-content {
+  top: 0;
+  width: 100%;
+  height: 20px;
+  position: fixed;
+  display: none;
+  padding: 5px; }
+
+#top {
+  position: relative;
+  height: 125vh;
+  background: url("../imgs/starrynight.gif");
+  overflow: hidden; }
+
+#top-contain {
+  height: 100%; }
+
+#countdown {
+  font-family: 'Orbitron';
+  padding: 20px;
+  background: #1f0027;
+  border-radius: 15px;
+  border: solid 1px #333;
+  text-align: center;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 250px; }
+
+#middle {
+  height: 100vh;
+  background: url("../imgs/starrynight.gif");
+  overflow: hidden; }
+
+#web-dev {
+  padding: 50px 0; }
+
+#graphic-design {
+  padding: 50px 0; }
+
+#bottom {
+  height: 50vh;
+  background: rgba(0, 79, 109, 1); }
+
+#footer {
+  padding: 30px 10px;
+  bottom: 0; }
+/* x and y center */
+.outer {
+  display: table;
+  height: 100%;
+  width: 100%; }
+
+.middle {
+  display: table-cell;
+  vertical-align: middle; }
+
+.inner {
+  margin-left: auto;
+  margin-right: auto; }
+/* Generic */
+.center {
+  margin: 0 auto; }
+
+.text-center {
+  text-align: center; }
+
+.full-width {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial; }
+/* Galleries */
+.th {
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease; }
+
+.th:hover {
+  width: 250px; }
+
+.th img {
+  display: block;
+  /* Otherwise it keeps some space around baseline */
+  min-width: 100%;
+  /* Scale up to fill container width */
+  min-height: 100%;
+  /* Scale up to fill container height */
+  -ms-interpolation-mode: bicubic;
+  /* Scaled images look a bit better in IE now */ }
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  z-index: 100; }
+
+#close {
+  right: 0;
+  position: fixed;
+  opacity: 0.5;
+  cursor: pointer;
+  text-align: center;
+  margin: 5px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 3em;
+  color: #aaa;
+  background: black; }
+  @media only screen and (max-width: 39.9375em) {
+  #close {
+    display: none; } }
+
+#profile {
+  display: none;
+  border-radius: 25px;
+  width: 90%;
+  height: 95vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 101; }
+  @media only screen and (max-width: 39.9375em) {
+  #profile {
+    overflow-y: scroll; } }
+
+.bio-title {
+  font-size: 3rem;
+  background: orange;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; }
+
+#bio {
+  text-align: left;
+  background: #aaa;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 20px; }
+
+#large-img {
+  display: none;
+  z-index: 99; }
+
+.img-gallery {
+  padding: 20px 0; }
+/* Footer */
+.hero {
+  background: url('http://www.banksy-wallpaper.com/wallpapers/800x600/10-i-am-father.jpg') no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  overflow: hidden; }
+  .hero h1, .hero h2 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    padding: 1rem 0 0 1rem;
+    margin: 0; }
+
+.row {
+  max-width: 1200px; }
+
+.footer {
+  background-color: #292c2f;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 4rem; }
+  .footer .inline-list a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 3px 0 0; }
+  .footer .contact {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+    color: #fff; }
+    .footer .contact li {
+      margin-bottom: 2rem; }
+      .footer .contact li p {
+        padding-left: 5rem; }
+    .footer .contact i {
+      position: absolute;
+      background-color: #33383b;
+      color: #fff;
+      font-size: 2rem;
+      border-radius: 50%;
+      line-height: 1;
+      margin: 0 0 0 -4rem;
+      vertical-align: middle;
+      padding: 0.25em 0.45em; }
+  .footer .copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0; }
+  .footer .about {
+    color: #92999f;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0; }
+  .footer .footer-links a {
+    list-style: none;
+    font-weight: normal;
+    color: #fff;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    font-size: 0.875rem; }
+    .footer .footer-links a::after {
+      content: "•";
+      padding: 0 0.2rem 0 0.4rem; }
+    .footer .footer-links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
+  @media only screen and (min-width: 40.063em) {
+  .footer p {
+    text-align: left; }
+  .footer .social {
+    text-align: left;
+    margin: 0; }
+  .footer .contact {
+    text-align: left; }
+    .footer .contact > i {
+      margin-right: 1rem; } }
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem; }
+  .logo i {
+    margin-right: 0.5rem; }
+/* CORE */
+#intro {
+  background-image: url("../imgs/starrynight.gif");
+  position: relative;
+  width: 100%;
+  height: 100vh; }
+
+#rocket-contain {
+  position: relative;
+  height: 100%;
+  bottom: 0; }
+
+#rocket-contain img {
+  width: 100%; }
+
+#logo {
+  width: 25%;
+  top: 10%;
+  position: absolute;
+  left: 50%;
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+#rocket {
+  bottom: 0;
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-animation: rocketship-1 2s infinite;
+  -moz-animation: rocketship-1 2s infinite;
+  -ms-animation: rocketship-1 2s infinite;
+  -o-animation: rocketship-1 2s infinite;
+  animation: rocketship-1 2s infinite; }
+
+#comet {
+  position: absolute;
+  z-index: 9;
+  bottom: -200px;
+  left: 50%;
+  -webkit-animation: rocketship-2 2s infinite;
+  -moz-animation: rocketship-2 2s infinite;
+  -ms-animation: rocketship-2 2s infinite;
+  -o-animation: rocketship-2 2s infinite;
+  animation: rocketship-2 2s infinite;
+  -moz-transform: translateX(-51.25%);
+  -o-transform: translateX(-51.25%);
+  -ms-transform: translateX(-51.25%);
+  -webkit-transform: translateX(-51.25%);
+  transform: translateX(-51.25%); }
+
+#astronaut {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  -webkit-animation: astronaut 20s infinite;
+  -moz-animation: astronaut 20s infinite;
+  -ms-animation: astronaut 20s infinite;
+  -o-animation: astronaut 20s infinite;
+  animation: astronaut 20s infinite; }
+/* Departments */
+#departments {
+  background: url("../imgs/starrynight.gif"); }
+
+.web-dev-planet {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 700;
+  float: none;
+  margin: 0 auto;
+  width: 40%;
+  z-index: 100;
+  padding: 5px;
+  -webkit-animation: pulse 2s infinite;
+  -moz-animation: pulse 2s infinite;
+  -ms-animation: pulse 2s infinite;
+  -o-animation: pulse 2s infinite;
+  animation: pulse 2s infinite; }
+
+#web-dev-gallery {
+  display: none; }
+
+#web-dev-title {
+  font-family: brandon-italics;
+  font-size: 0.5rem;
+  color: rgba(180, 185, 187, 1);
+  opacity: 0;
+  -webkit-transition: opacity 1s, font-size 1s;
+  transition: opacity 1s, font-size 1s; }
+/* graphic design */
+.graphic-design-planet {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 700;
+  float: none;
+  margin: 0 auto;
+  width: 40%;
+  z-index: 100;
+  padding: 5px;
+  -webkit-animation: pulse 2s infinite;
+  -moz-animation: pulse 2s infinite;
+  -ms-animation: pulse 2s infinite;
+  -o-animation: pulse 2s infinite;
+  animation: pulse 2s infinite; }
+
+.graphic-design-planet::after {
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 0;
+  padding-bottom: 100%;
+  width: 100%;
+  -webkit-animation: slide-down 5s 3;
+  -moz-animation: slide-down 5s 3;
+  -ms-animation: slide-down 5s 3;
+  -o-animation: slide-down 5s 3;
+  animation: slide-down 5s 3; }
+
+.graphic-design-planet div ::hover {
+  width: 500px; }
+
+#graphic-design-gallery {
+  display: none; }
+
+#graphic-design-title {
+  font-family: brandon-italics;
+  font-size: 0.5rem;
+  color: rgba(75, 189, 154, 1);
+  opacity: 0;
+  -webkit-transition: opacity 1s, font-size 1s;
+  transition: opacity 1s, font-size 1s; }
+/* Generic */
+/* NAV */
+.web-dev-nav :hover {
+  background: rgba(180, 185, 187, 1) !important; }
+
+.graphic-design-nav :hover {
+  background: rgba(75, 189, 154, 1) !important; }
+
+.video-production-nav :hover {
+  background: rgba(173, 22, 29, 1) !important; }
+
+.animation-nav :hover {
+  background: rgba(0, 79, 109, 1) !important; }
+
+.photography-nav :hover {
+  background: rgba(249, 178, 24, 1) !important; }
+
+nav ul li a {
+  font-family: 'brandon-italics'; }
+
+.top-bar-section ul li > a {
+  font-family: 'brandon-italics'; }
+/* Footer Stylings */
+.hero {
+  background: url("http://www.banksy-wallpaper.com/wallpapers/800x600/10-i-am-father.jpg") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  overflow: hidden; }
+
+.hero h1, .hero h2 {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  padding: 1rem 0 0 1rem;
+  margin: 0; }
+
+.row {
+  max-width: 1200px; }
+
+.footer {
+  background-color: #292c2f;
+  text-align: center;
+  font-size: 1rem;
+  padding: 4rem; }
+
+.footer .inline-list a {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin: 0 3px 0 0; }
+
+.footer .contact {
+  list-style-type: none;
+  margin: 0;
+  text-align: right;
+  color: #fff; }
+
+.footer .contact li {
+  margin-bottom: 2rem; }
+
+.footer .contact li p {
+  padding-left: 5rem; }
+
+.footer .contact i {
+  position: absolute;
+  background-color: #33383b;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1;
+  margin: 0 0 0 -4rem;
+  vertical-align: middle;
+  padding: 0.25em 0.45em; }
+
+.footer .copywrite {
+  color: #8f9296;
+  font-size: 0.875rem;
+  margin: 0 0 1rem 0; }
+
+.footer .about {
+  color: #92999f;
+  font-size: 0.875rem;
+  margin: 0 0 1rem 0; }
+
+.footer .footer-links a {
+  list-style: none;
+  font-weight: normal;
+  color: #fff;
+  padding: 3rem 0 2rem;
+  margin: 0;
+  font-size: 0.875rem; }
+
+.footer .footer-links a::after {
+  content: "•";
+  padding: 0 0.2rem 0 0.4rem; }
+
+.footer .footer-links a:last-child::after {
+  content: "";
+  padding: 0 0.4rem 0 0.8rem; }
+
+@media only screen and (min-width: 40.063em) {
+  .footer p {
+    text-align: left; }
+
+  .footer .social {
+    text-align: left;
+    margin: 0; }
+
+  .footer .contact {
+    text-align: right; }
+
+  .footer .contact > i {
+    margin-right: 1rem; } }
+
+.logo {
+  color: #fff;
+  font-size: 1rem; }
+
+.logo i {
+  margin-right: 0.5rem; }
+
+SCSS .hero {
+  background: url('http://www.banksy-wallpaper.com/wallpapers/800x600/10-i-am-father.jpg') no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  overflow: hidden; }
+  SCSS .hero h1, SCSS .hero h2 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    padding: 1rem 0 0 1rem;
+    margin: 0; }
+
+.row {
+  max-width: 1300px; }
+
+.footer {
+  background-color: #292c2f;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 4rem; }
+  .footer .inline-list a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 3px 0 0; }
+  .footer .contact {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+    color: #fff; }
+    .footer .contact li {
+      margin-bottom: 2rem; }
+      .footer .contact li p {
+        padding-left: 5rem; }
+    .footer .contact i {
+      position: absolute;
+      background-color: #33383b;
+      color: #fff;
+      font-size: 2rem;
+      border-radius: 50%;
+      line-height: 1;
+      margin: 0 0 0 -4rem;
+      vertical-align: middle;
+      padding: 0.25em 0.45em; }
+  .footer .copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 6rem 0 1rem 0; }
+  .footer .about {
+    color: #92999f;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0; }
+  .footer .footer-links a {
+    list-style: none;
+    font-weight: normal;
+    color: #fff;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    font-size: 0.875rem; }
+    .footer .footer-links a::after {
+      content: "•";
+      padding: 0 0.2rem 0 0.4rem; }
+    .footer .footer-links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
+  @media only screen and (min-width: 40.063em) {
+  .footer p {
+    text-align: left; }
+  .footer .social {
+    text-align: left;
+    margin: 0; }
+  .footer .contact {
+    text-align: left; }
+    .footer .contact > i {
+      margin-right: 1rem; } }
+
+.logo {
+  color: #fff;
+  font-size: 1.1rem;
+  margin: 0 0 19px 0; }
+  .logo i {
+    margin-right: 0.5rem; }
+/* Foundation Overrides */
+header {
+  position: relative; }
+
+.contain-to-grid {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  background: rgba(0, 0, 0, 0); }
+
+.contain-to-grid .top-bar {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; }
+
+.top-bar-section ul li {
+  background: rgba(0, 0, 0, 0) !important; }
+  @media only screen and (max-width: 39.9375em) {
+  .top-bar-section ul li {
+    background: #333 !important; } }
+
+.top-bar-section ul li > a {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; }

@@ -1,0 +1,82 @@
+// Responsive Circles
+@mixin setCircleWidth($circleWidth, $margin, $float){
+		cursor: pointer;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 30px;
+		font-weight: 700;
+		float: $float;
+		margin: $margin;
+		width: $circleWidth;
+		z-index: 100;
+}
+@mixin setCircleAfter(){
+		border-radius: 50%;
+		content: "";
+		display: block;
+		height: 0;
+		padding-bottom: 100%;
+		width: 100%;
+}
+@mixin setCircleDivColor($color){
+		color: $color;
+		float: left;
+		line-height: 1em;
+		margin-top: -0.5em;
+		padding-top: 50%;
+		text-align: center;
+		width: 100%;
+}
+
+//Border radius
+@mixin border-top-radius($radius){
+	border-top-left-radius: $radius;
+	border-top-right-radius: $radius;
+}
+@mixin border-bottom-radius($radius){
+	border-bottom-left-radius: $radius;
+	border-bottom-right-radius: $radius;
+}
+@mixin border-left-radius($radius){
+	border-top-left-radius: $radius;
+	border-bottom-left-radius: $radius;
+}
+@mixin border-right-radius($radius){
+	border-top-right-radius: $radius;
+	border-bottom-right-radius: $radius;
+}
+
+//Transition
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin transform($transforms) {
+	   -moz-transform: $transforms;
+	     -o-transform: $transforms;
+	    -ms-transform: $transforms;
+	-webkit-transform: $transforms;
+          transform: $transforms;
+}
+
+//Media Mixins
+	@mixin small-device{
+		@media only screen and (max-width: 39.9375em) {
+			@content;
+		}	
+	}
+	
+	@mixin medium-device{
+		@media only screen and (min-width: 40em) {
+			@content;
+		}	
+	}
+	@mixin large-device{
+		@media only screen and (min-width: 64em) {
+			@content;
+		}	
+	}

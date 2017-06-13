@@ -1,0 +1,28 @@
+/*Sections*/
+$intro: white;
+$topbg: url("../imgs/starrynight.gif");
+$middlebg:  url("../imgs/starrynight.gif");
+$bottombg: rgba(0, 79, 109, 1);
+$timerbg: #1F0027;
+$profilebg: repeating-linear-gradient(45deg, #606dbc, #606dbc 30px, #465298 30px, #465298 60px);
+$biobg: #aaa;
+$biotitlebg: orange;
+
+/* Footer */
+$footerbg: rgba(180, 185, 187, 1);
+
+/* Misc */
+$invisible: rgba(0, 0, 0, 0);
+$lightgrey: #aaa;
+
+/* Suppose to make the top-bar transparent. May have to be added prior to importing foundation*/
+$topbar-bg: rgba(0,0,0,0);
+$topbar-dropdown-bg: rgba(0,0,0,0);
+
+/* Color Scheme */
+$web-dev: rgba(180,185,187, 1);
+$photography: rgba(249,178,24, 1);
+$animation: rgba(0, 79, 109, 1);
+$video-production: rgba(173, 22, 29, 1);
+$graphic-design: rgba(75, 189, 154, 1);
+$generic: rgba(0, 20, 35, 1);

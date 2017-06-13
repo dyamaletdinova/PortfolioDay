@@ -1,0 +1,38 @@
+.brandon-reg{
+    font-family: 'brandon-reg';
+}
+.brandon-italics{
+    font-family: 'brandon-italics';
+}
+.brandon-bold{
+    font-family: 'brandon-bold';
+}
+.brandon-medium{
+    font-family: 'brandon-medium';
+}
+
+@font-face {        
+    font-family: 'brandon-reg';
+    src: url('../css/fonts/brandon_reg.otf');
+}
+@font-face {        
+    font-family: 'brandon-italics';
+    src: url('../css/fonts/brandon_reg_it.otf');
+}
+@font-face {        
+    font-family: 'brandon-bold';
+    src: url('../css/fonts/brandon_bld.otf');
+}
+@font-face {
+    font-family: 'brandon-medium';
+    src: url('../css/fonts/brandon_med.otf');
+}
+
+/* GOOGLE FONTS */
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Orbitron-Light'), local('Orbitron-Regular'), url(https://fonts.gstatic.com/s/orbitron/v7/HmnHiRzvcnQr8CjBje6GQvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
